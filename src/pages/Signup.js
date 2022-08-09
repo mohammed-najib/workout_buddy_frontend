@@ -21,14 +21,12 @@ const Signup = () => {
         type="email"
         onChange={(e) => setEmail(e.target.value)}
         value={email}
-        // name="" id=""
       />
       <label>Passwor:</label>
       <input
         type="password"
         onChange={(e) => setPassword(e.target.value)}
         value={password}
-        // name="" id=""
       />
 
       <button disabled={isLoading}>Sign up</button>
